@@ -10,10 +10,6 @@ a {
   color: rgb(39, 35, 35);
 }
 
-body {
-  background: rgb(245, 247, 255);
-}
-
 .howitworks-section .content-main .content-main__info .info-step-description3, .howitworks-section .content-main .content-main__info .info-step-description2, .howitworks-section .content-main .content-main__info .info-step-description1 {
   display: flex;
   align-items: center;
@@ -39,10 +35,15 @@ body {
 
 .howitworks-section .content-main .content-main__info .info-step-description3 .step-description-title3, .howitworks-section .content-main .content-main__info .info-step-description2 .step-description2 .step-description-title2, .howitworks-section .content-main .content-main__info .info-step-description1 .step-description-title1 {
   color: rgb(50, 50, 50);
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 600;
   margin-left: -180px;
+}
+
+.main-banner-wrapper {
+  background: rgb(245, 247, 255);
+  box-shadow: 0px 4px 23px 0px rgba(49, 49, 49, 0.05);
 }
 
 .header {
@@ -101,13 +102,7 @@ body {
   letter-spacing: 2%;
 }
 
-.main-banner-wrapper {
-  background: rgb(245, 247, 255);
-  box-shadow: 0px 4px 23px 0px rgba(49, 49, 49, 0.05);
-}
-
 .main-banner {
-  position: relative;
   display: flex;
   justify-content: center;
   max-width: 1440px;
@@ -228,7 +223,7 @@ body {
 }
 .howitworks-section .content-main .content-main__info .info-title .info-title__title {
   color: rgb(255, 92, 0);
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 50px;
@@ -237,14 +232,14 @@ body {
 }
 .howitworks-section .content-main .content-main__info .info-title .info-title__calltoaction {
   color: rgb(53, 52, 52);
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 50px;
 }
 .howitworks-section .content-main .content-main__info .info-step-description1 .step-description__number1 .number-ofstep1 {
   color: rgb(148, 68, 201);
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
 }
 .howitworks-section .content-main .content-main__info .info-step-description1 .step-description-arrow1 {
   margin-right: 24px;
@@ -258,7 +253,7 @@ body {
 }
 .howitworks-section .content-main .content-main__info .info-step-description2 .step-description__number2 .number-ofstep2 {
   color: rgb(148, 68, 201);
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
 }
 .howitworks-section .content-main .content-main__info .info-step-description2 .step-description2 {
   position: relative;
@@ -279,7 +274,7 @@ body {
   width: 372px;
   height: 66px;
   color: rgb(168, 168, 168);
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 22px;
@@ -293,7 +288,7 @@ body {
 }
 .howitworks-section .content-main .content-main__info .info-step-description3 .step-description__number3 .number-ofstep3 {
   color: rgb(148, 68, 201);
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
 }
 .howitworks-section .content-main .content-main__info .info-step-description3 .step-description-title3 {
   margin-left: -240px;
@@ -313,4 +308,574 @@ body {
 .howitworks-section .content-main .content-image .button-img .button-img > img {
   width: 77px;
   height: 77px;
+}
+
+.whychooseus-section .whychooseus-section__content .content-advantages .advantages-info {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  background: rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out;
+}
+
+.whychooseus-section .whychooseus-section__content .content-advantages .advantages-info .advantages-img3, .whychooseus-section .whychooseus-section__content .content-advantages .advantages-info .advantages-img2, .whychooseus-section .whychooseus-section__content .content-advantages .advantages-info .advantages-img {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 7px;
+  margin-top: 40px;
+  margin-left: 37px;
+}
+
+.whychooseus-section .whychooseus-section__content .content-advantages .advantages-info .advantages-title {
+  color: rgb(53, 52, 52);
+  font-family: Oswald, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 37px;
+  margin-top: 22px;
+  margin-bottom: 15px;
+}
+
+.whychooseus-section .whychooseus-section__content .content-advantages .advantages-info .advantages-description {
+  width: 276px;
+  height: 66px;
+  color: rgb(168, 168, 168);
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 37px;
+  margin-bottom: 34px;
+}
+
+.pricing-section, .customer-section, .featured-jobs-section, .whychooseus-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background: rgb(245, 245, 245);
+}
+
+.pricing-section .pricing-section__content, .customer-section .customer-section__content, .featured-jobs-section .featured-jobs-section__content, .whychooseus-section .whychooseus-section__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1110px;
+  height: auto;
+}
+
+.pricing-section .pricing-section__content .content__info, .customer-section .customer-section__content .content-info, .featured-jobs-section .featured-jobs-section__content .content-info, .whychooseus-section .whychooseus-section__content .content-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 543px;
+  height: auto;
+}
+
+.pricing-section .pricing-section__content .content__info .info__title, .customer-section .customer-section__content .content-info .content-info__title, .featured-jobs-section .featured-jobs-section__content .content-info .content-info__title, .whychooseus-section .whychooseus-section__content .content-info .content-info__title {
+  width: 247px;
+  height: 49px;
+  color: rgb(53, 52, 52);
+  font-family: Oswald, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 119px;
+  margin-bottom: 20px;
+}
+
+.pricing-section .pricing-section__content .content__info .info__description, .customer-section .customer-section__content .content-info .content-info__description, .featured-jobs-section .featured-jobs-section__content .content-info .content-info__description, .whychooseus-section .whychooseus-section__content .content-info .content-info__descripton {
+  color: rgb(168, 168, 168);
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pricing-section .pricing-section__card .card, .featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples {
+  border-radius: 20px;
+  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  background: rgb(255, 255, 255);
+}
+
+.whychooseus-section .whychooseus-section__content .content-advantages {
+  display: flex;
+  gap: 30px;
+}
+.whychooseus-section .whychooseus-section__content .content-advantages .advantages-info .advantages-img {
+  background: rgb(97, 86, 220);
+}
+.whychooseus-section .whychooseus-section__content .content-advantages .advantages-info .advantages-img2 {
+  background: rgb(239, 96, 16);
+}
+.whychooseus-section .whychooseus-section__content .content-advantages .advantages-info .advantages-img3 {
+  background: rgb(167, 62, 237);
+}
+.whychooseus-section .whychooseus-section__content .content-advantages .advantages-info:hover {
+  border-radius: 20px;
+  box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+  background: rgb(249, 250, 255);
+  transform: translateY(-5px);
+}
+
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs {
+  display: flex;
+  gap: 30px;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .examples__job {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 220px;
+  height: auto;
+  margin-top: 51px;
+  margin-bottom: 44px;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .examples__job .job__img {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 45px;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .examples__job .job__description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .examples__job .job__description .description-position {
+  color: rgb(50, 50, 50);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .examples__job .job__description .description-title {
+  color: rgb(66, 56, 175);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .position-info {
+  display: flex;
+  gap: 10px;
+  width: 230px;
+  height: auto;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .position-info .info__salary {
+  display: flex;
+  font-family: Open Sans;
+  gap: 10px;
+  width: 205px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .position-info .info__salary span {
+  color: rgb(168, 168, 168);
+  padding-left: 5px;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .position-info .info__location {
+  display: flex;
+  gap: 15px;
+  font-family: Open Sans;
+  width: 205px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .position-info .info__location span {
+  color: rgb(168, 168, 168);
+  padding-left: 5px;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .featured-apply {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+  margin-bottom: 47px;
+  margin-top: 33px;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .featured-apply .apply-like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background: rgb(249, 250, 255);
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .apply-now {
+  display: flex;
+  width: 152px;
+  height: 49px;
+  border-radius: 47px;
+  background: rgba(56, 49, 139, 0.33);
+  color: rgb(56, 49, 139);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples .apply-now:hover {
+  background: rgb(84, 76, 172);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.featured-jobs-section .featured-jobs-section__content .content-featured-jobs .featured-jobs__examples:hover {
+  border-radius: 20px;
+  box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+  background: rgb(249, 250, 255);
+  transform: translateY(-35px);
+}
+.featured-jobs-section .featured-jobs-section__content .featured-jobs__arrows {
+  display: flex;
+  width: auto;
+  height: auto;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.featured-jobs-section .featured-jobs-section__content .featured-jobs__arrows .arrow__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 7px;
+  background: rgb(239, 96, 16);
+}
+.featured-jobs-section .featured-jobs-section__content .featured-jobs__arrows .arrow__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 7px;
+  background: rgb(249, 250, 255);
+}
+.featured-jobs-section .featured-jobs-section__content .content__viewmore-button {
+  display: flex;
+  width: 152px;
+  height: 49px;
+  border-radius: 47px;
+  background: rgba(56, 49, 139, 0.33);
+  color: rgb(56, 49, 139);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.featured-jobs-section .featured-jobs-section__content .content__viewmore-button:hover {
+  background: rgb(84, 76, 172);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.customer-section .customer-section__content .content-info .content-info__title {
+  width: 404px;
+}
+.customer-section .customer-section__content .content-info__main {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 150px;
+}
+.customer-section .customer-section__content .content-info__main .main__img {
+  position: relative;
+  width: 330px;
+  height: 327px;
+}
+.customer-section .customer-section__content .content-info__main .main__img .img__man {
+  width: 330px;
+  height: 327px;
+}
+.customer-section .customer-section__content .content-info__main .main__img .img__sign {
+  position: absolute;
+  width: 49px;
+  height: 69px;
+  left: 15%;
+  top: 5%;
+}
+.customer-section .customer-section__content .content-info__main .main__img .img__colored-dots {
+  position: absolute;
+  top: 75%;
+  width: 46px;
+  height: 46px;
+}
+.customer-section .customer-section__content .content-info__main .main__article {
+  display: flex;
+  flex-direction: column;
+  width: 731px;
+  height: auto;
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__header {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__header .header__title {
+  color: rgb(50, 50, 50);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__header .header__subtitle {
+  color: rgb(134, 134, 134);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.customer-section .customer-section__content .content-info__main .main__article .main__review {
+  display: flex;
+  flex-direction: column;
+  color: rgb(56, 56, 56);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.customer-section .customer-section__content .content-info__main .main__article .main__review .review__rating {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  float: right;
+  width: 100%;
+  height: 30px;
+  color: rgb(50, 50, 50);
+  font-size: 20px;
+  font-weight: 600;
+}
+.customer-section .customer-section__content .content-info__main .main__article .main__review span {
+  margin-left: 10px;
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__switching-likes {
+  display: flex;
+  justify-content: space-between;
+  max-width: 730px;
+  height: auto;
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__switching-likes .switching-likes__arrows {
+  display: flex;
+  width: auto;
+  height: auto;
+  gap: 20px;
+  margin-top: 51px;
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__switching-likes .switching-likes__arrows .arrow__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 41px;
+  height: 41px;
+  border-radius: 7px;
+  background: rgb(239, 96, 16);
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__switching-likes .switching-likes__arrows .arrow__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 41px;
+  height: 41px;
+  border-radius: 7px;
+  background: rgb(249, 250, 255);
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__switching-likes .switching-likes__img {
+  position: relative;
+  display: flex;
+  width: auto;
+  height: 53px;
+  margin-top: 45px;
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__switching-likes .switching-likes__img .img__human1 {
+  position: absolute;
+  right: 80px;
+  width: 52px;
+  height: 52px;
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__switching-likes .switching-likes__img .img__human2 {
+  position: absolute;
+  right: 50px;
+  width: 52px;
+  height: 52px;
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__switching-likes .switching-likes__img .img__human3 {
+  position: absolute;
+  right: 20px;
+  width: 52px;
+  height: 52px;
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__switching-likes .switching-likes__img .img__grey-circle {
+  position: absolute;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgb(169, 163, 233);
+}
+.customer-section .customer-section__content .content-info__main .main__article .article__switching-likes .switching-likes__img .img__grey-circle span {
+  color: rgb(66, 56, 175);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.customer-section .customer-section__content .customer-section__statistics {
+  display: flex;
+  width: 100%;
+  height: 229px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+  background: rgb(206, 213, 244);
+}
+.customer-section .customer-section__content .customer-section__statistics .statistics__info {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.customer-section .customer-section__content .customer-section__statistics .statistics__info .info__quantity {
+  color: rgb(88, 78, 198);
+  font-family: Oswald;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 5%;
+  text-align: center;
+}
+.customer-section .customer-section__content .customer-section__statistics .statistics__info .info__title {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.pricing-section .pricing-section__content .content__info .info__title {
+  width: 404px;
+}
+.pricing-section .pricing-section__card {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+.pricing-section .pricing-section__card .card {
+  display: flex;
+  width: 350px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-section .pricing-section__card .card .card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 219px;
+  height: auto;
+  margin: 62px 66px 62px 65px;
+}
+.pricing-section .pricing-section__card .card .card__info .info__title {
+  color: rgb(66, 56, 175);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 31px;
+  margin-bottom: 24px;
+}
+.pricing-section .pricing-section__card .card .card__info .info__price {
+  color: rgb(53, 52, 52);
+  font-family: Oswald;
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.pricing-section .pricing-section__card .card .card__info .info__period {
+  color: rgb(138, 134, 185);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.pricing-section .pricing-section__card .card .card__info .info__benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  width: 219px;
+  height: auto;
+  margin-top: 70px;
+}
+.pricing-section .pricing-section__card .card .card__info .info__benefits .benefits {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+.pricing-section .pricing-section__card .card .card__info .info__benefits .benefits .benefits__icon {
+  display: flex;
+  width: 15.85px;
+  height: 15.85px;
+  margin-right: 12px;
+}
+.pricing-section .pricing-section__card .card .card__info .info__benefits .benefits .benefits__description {
+  color: rgb(168, 168, 168);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+}
+.pricing-section .pricing-section__card .card .card__info .purchase-now {
+  display: flex;
+  width: 172px;
+  height: 43px;
+  border-radius: 50px;
+  background: rgb(189, 187, 217);
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 47px;
+}
+.pricing-section .pricing-section__card .card .card__info .purchase-now:hover {
+  background: rgb(84, 76, 172);
+  cursor: pointer;
+}
+.pricing-section .pricing-section__card .card:hover {
+  border-radius: 20px;
+  box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+  background: rgb(249, 250, 255);
+  transform: translateY(-35px);
 }/*# sourceMappingURL=main.css.map */
