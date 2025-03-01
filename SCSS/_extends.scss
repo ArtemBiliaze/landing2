@@ -1,0 +1,140 @@
+%tpl-stepdesc{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 435px;
+  height: auto;
+  border-radius: 8px;
+  background: $background-step-description;
+}
+
+%tpl-stepnumber{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 14px;
+  background: $background-step-number;
+}
+
+%tpl-steptitle{
+  color: $color-step-title;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: -180px;
+}
+
+%tpl-advantageinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  background: $background-advantage-info;
+  transition: all 0.3s ease-in-out;
+}
+
+%tpl-advantageimg {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 7px;
+  margin-top: 40px;
+  margin-left: 37px;          
+}
+
+%tpl-advantagetitle {
+  color: $color-advantage-title;
+  font-family: Oswald, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 37px;
+  margin-top: 22px;
+  margin-bottom: 15px;
+}
+
+%tpl-advantagedescription {
+  width: 276px;
+  height: 66px;
+  color: $color-advantage-description;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 37px;
+  margin-bottom: 34px;
+}
+
+%tpl-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background: $background-whychooseus-section;
+}
+
+%tpl-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1110px;
+  height: auto;
+}
+
+%tpl-content-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 543px;
+  height: auto;
+  padding: 0 20px 0 20px;
+}
+
+%tpl-content-info-title {
+  width: 247px;
+  height: 49px;
+  color: rgb(53, 52, 52);
+  font-family: Oswald, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 119px;
+  margin-bottom: 20px;
+}
+
+%tpl-content-info-description {
+  color: $color-content-info__descripton;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 60px;
+  width: 100%;
+
+}
+
+%box-shadow-radius {
+  border-radius: 20px;
+  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  background: $background-advantage-info;
+}
+
+%tpl-content-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
