@@ -1,1 +1,14 @@
+@mixin  textprop ($c:black, $ff... ,$fz,$fw,$lh: normal) {
+  color: $c;
+  font-family: $ff;
+  font-size: $fz;
+  font-weight: $fw;
+  line-height: $lh;
+}
 
+@mixin flex-container($jc: center, $ai: center, $fd: row) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-direction: $fd;
+}

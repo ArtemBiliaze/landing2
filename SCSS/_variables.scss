@@ -1,37 +1,114 @@
   //  Background
+
+  //main-banner-wrapper
 $background-main-banner:rgba(245, 247, 255, 1);
+$main-banner__box-shadow:0px 4px 23px 0px rgba(49, 49, 49, 0.05);
+
+//header 
+$background-header:rgba(245, 247, 255, 1);
+
+// main-banner
+$background-button-discover:rgba(84, 76, 172, 1);
+$background-button-watch:white;
+
+//how it works 
+$baclground-howitworks-section:rgb(245, 245, 245);
 $background-step-description:rgba(245, 247, 255, 1);
 $background-step-number: rgb(243, 224, 255);
-$backgtound-button-discover:rgba(84, 76, 172, 1);
-$backgtound-button-watch:white;
-$baclground-howitworks-section:rgb(245, 245, 245);
-$background-whychooseus-section:rgb(245, 245, 245);
 $background-step-description3:rgb(255, 222, 204);
+
+//why choose us
+$background-whychooseus-section:rgb(245, 245, 245);
 $background-advantage-info:rgb(255, 255, 255);
 $background-advantage-img:rgb(97, 86, 220);
 $background-advantage-img2:rgb(239, 96, 16);
 $background-advantage-img3:rgb(167, 62, 237);
 $background-advantage-hover:rgb(249, 250, 255);
+$advantage-box-shadow:0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+
+// Featured 
+$featured-box-shadow:-1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+$featured-box-shadow-hover:0px 12px 30px 0px rgba(71, 71, 71, 0.15);
 $background-apply-like:rgb(249, 250, 255);
+$background-apply-now:rgba(56, 49, 139, 0.33);
+$background-apply-now-hover:rgb(84, 76, 172);
+$background-featured-hover:rgb(249, 250, 255);
+$background-arrow-left:rgb(239, 96, 16);
+$background-arrow-right:rgb(249, 250, 255);
+$background-viewmore-button:rgba(56, 49, 139, 0.33);
+$background-viewmore-button-hover:rgb(84, 76, 172);
+
+// Customer
+$background-customer-arrow-left:rgb(239, 96, 16);
+$background-customer-arrow-right:rgb(249, 250, 255);
+$background-grey-circle:rgba(169, 163, 233, 1);
+$background-grey-circle-span:rgb(66, 56, 175);
+$background-customer-secdtion-statistic:rgb(206, 213, 244);
+
+//pricing
+$pricing-box-shadow:-1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+$pricing-card-box-shadow-hover:0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+$background-purchase-now:rgb(189, 187, 217);
+$background-purchase-now-hover:rgb(84, 76, 172);
+$background-pricing-card-hover:rgb(249, 250, 255);
+
+//footer 
+$background-footer-content:rgb(219, 226, 255);
+$background-content__divide-line: rgb(98, 91, 174);
+$background-social-media:rgb(255, 255, 255);
+$background-social-media-nth-child:rgba(66, 56, 175, 0.81);
 
 
 // Color
-$color-step-title:rgb(50, 50, 50);
+
+// main-banner
 $color-content-title:rgba(53, 52, 52, 1);
 $color-content-title-span: red;
 $color-content-description:rgba(168, 168, 168, 1);
 $color-button-discover:rgba(255, 255, 255, 1);
-$color-info-title__calltoaction:rgb(53, 52, 52);
+
+// how it works 
 $color-info-title__title:rgb(255, 92, 0);
+$color-info-title__calltoaction:rgb(53, 52, 52);
 $color-number-ofstep123:rgb(148, 68, 201);
+$color-step-title:rgb(50, 50, 50);
 $color-step-description-title__info:rgb(168, 168, 168);
+
+// why choose us
 $color-advantage-title:rgb(53, 52, 52);
 $color-advantage-description:rgb(168, 168, 168);
+
+// featured-
+$color-description-position:rgb(50, 50, 50);
+$color-description-title:rgb(66, 56, 175);
 $color-content-info__descripton:rgb(168, 168, 168);
+$color-apply-now:rgb(56, 49, 139);
+$color-apply-now-hover:rgb(255, 255, 255);
+$color-viewmore-button:rgb(56, 49, 139);
+$color-viewmore-button-hover:rgb(255, 255, 255);
+
+// customer
+$color-header-title:rgb(50, 50, 50);
+$color-header-subtitle: rgb(134, 134, 134);
+$color-main-review:rgb(56, 56, 56);
+$color-review-rating:rgb(50, 50, 50);
+$color-info-quantity:rgb(88, 78, 198);
+$color-info-title:rgb(255, 255, 255);
+
+//pricing
+$color-pricing-info-title:rgb(66, 56, 175);
+$color-pricing-info-price:rgb(53, 52, 52);
+$color-pricing-info-period:rgb(138, 134, 185);
+$color-pricing-benefits-description:rgb(168, 168, 168);
+$color-purchase-now:rgb(255, 255, 255);
+
+//footer
+$color-group-title:rgb(53, 52, 52);
+$color-group-item:rgb(113, 113, 113);
+$color-footer-menu-item:rgb(58, 46, 92);
+
 
 // Breakpoints
-
-
   $mobile: 600px;
   $minitablet: 900px;
   $tablet: 1200px;

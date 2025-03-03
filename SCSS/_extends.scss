@@ -128,7 +128,7 @@
 
 %box-shadow-radius {
   border-radius: 20px;
-  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  box-shadow: $featured-box-shadow;
   background: $background-advantage-info;
 }
 
