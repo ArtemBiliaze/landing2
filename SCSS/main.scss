@@ -1,11 +1,7 @@
-@import "_variables.scss";
-@import "_extends.scss";
-@import "_mixins.scss";
-
-*{padding: 0;margin: 0;border: 0; box-sizing: border-box;}
-a{text-decoration: none;color: rgb(39, 35, 35);}
-body{background:rgb(255, 255, 255); width: 100%;}
-
+@use "variables" as *;
+@use "extends" as *;
+@use "mixins" as *;
+@use "resets" as *;
 
 .main-banner-wrapper {
   width: 100%;
@@ -15,10 +11,7 @@ body{background:rgb(255, 255, 255); width: 100%;}
 
 .header {
   @include flex-container(space-between, center);
-  // display: flex;
-  // justify-content: space-between;
-  // align-items: center;
-  max-width: 1110px / 1440px * 100%;
+  max-width: 1110px;
   height: auto;
   margin: 0 auto;
   padding-top: 28px;
@@ -31,8 +24,7 @@ body{background:rgb(255, 255, 255); width: 100%;}
   }
 
   .menu {
-    display: flex;
-    align-items: center;
+    @include flex-container(noraml);
     text-align: center;
     margin-left: 50px;
 
@@ -45,8 +37,6 @@ body{background:rgb(255, 255, 255); width: 100%;}
   }
   .menu-input {
     position: relative;
-    // display: flex;
-    // justify-content: center;
 
     .input-field {
       width: 307px;
@@ -200,7 +190,7 @@ body{background:rgb(255, 255, 255); width: 100%;}
     gap: 20px;
     width: 100%;
     height: auto;
-    background: $baclground-howitworks-section;
+    background: $background-howitworks-section;
     .howitworks-section__content {
       @include flex-container(center, normal, column);
 
@@ -281,7 +271,7 @@ body{background:rgb(255, 255, 255); width: 100%;}
                 margin-bottom: 10px;
               }
               .step-description-title__info {
-                @include texprop ($color-step-description-title__info,Opens Sans,12px,400,22px);
+                @include textprop ($color-step-description-title__info,Opens Sans,12px,400,22px);
                 width: 372px;
                 height: 66px;
                 margin-left: 59px;
@@ -658,6 +648,7 @@ body{background:rgb(255, 255, 255); width: 100%;}
         }
         .main__review {
           @include flex-container (normal, normal);
+          display: block;
           @include textprop ($color-main-review, Open Sans, 14px, 400, 24px);
           width: 100%;
 
@@ -785,6 +776,7 @@ body{background:rgb(255, 255, 255); width: 100%;}
     .main__article {
       padding: 30px;
     }
+    .customer-section__content 
     .customer-section__statistics {
       flex-direction: column;
       max-width: 200px;
@@ -854,16 +846,22 @@ body{background:rgb(255, 255, 255); width: 100%;}
           width: 219px;
           height: auto;
           margin-top: 70px;
+
           .benefits {
             @include flex-container(normal, center);
+            gap: 8px;
             width: 100%;
             height: auto;
             text-align: left;
-            .benefits__icon {
-              display: flex;
+            &::before {
+              content: "";
+              display: inline-block;
               width: 15.85px;
               height: 15.85px;
-              margin-right: 12px;
+              background-image: url("../images/confirm-icon.svg");
+              background-size: contain;
+              background-repeat: no-repeat;
+              margin-right: 5px;
             }
             .benefits__description {
               @include textprop ($color-pricing-benefits-description,Open Sans, 14px, 400);
@@ -978,6 +976,7 @@ body{background:rgb(255, 255, 255); width: 100%;}
     }
   }
   @media screen and (max-width: $minitablet) {
+    .footer-content
     .footer-menu {
       flex-direction: column-reverse;
     }

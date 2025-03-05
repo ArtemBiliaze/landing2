@@ -1,4 +1,6 @@
-@mixin  textprop ($c:black, $ff... ,$fz,$fw,$lh: normal) {
+@use "variables" as *;
+
+@mixin  textprop ($c:black, $ff ,$fz,$fw,$lh: normal) {
   color: $c;
   font-family: $ff;
   font-size: $fz;
